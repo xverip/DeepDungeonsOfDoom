@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD204FF921C1820000A0F870 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD204FF821C1820000A0F870 /* Items.swift */; };
+		AD204FFB21C1842D00A0F870 /* Heroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD204FFA21C1842D00A0F870 /* Heroes.swift */; };
 		AD5C0FAD21C17B190017A6CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C0FAC21C17B190017A6CB /* AppDelegate.swift */; };
 		AD5C0FAF21C17B190017A6CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C0FAE21C17B190017A6CB /* ViewController.swift */; };
 		AD5C0FB221C17B190017A6CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD5C0FB021C17B190017A6CB /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD204FF821C1820000A0F870 /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		AD204FFA21C1842D00A0F870 /* Heroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heroes.swift; sourceTree = "<group>"; };
 		AD5C0FA921C17B190017A6CB /* DeepDungeonsOfDoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepDungeonsOfDoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5C0FAC21C17B190017A6CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD5C0FAE21C17B190017A6CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				AD5C0FB321C17B1A0017A6CB /* Assets.xcassets */,
 				AD5C0FB521C17B1A0017A6CB /* LaunchScreen.storyboard */,
 				AD5C0FB821C17B1A0017A6CB /* Info.plist */,
+				AD204FF821C1820000A0F870 /* Items.swift */,
+				AD204FFA21C1842D00A0F870 /* Heroes.swift */,
 			);
 			path = DeepDungeonsOfDoom;
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD5C0FAF21C17B190017A6CB /* ViewController.swift in Sources */,
+				AD204FFB21C1842D00A0F870 /* Heroes.swift in Sources */,
+				AD204FF921C1820000A0F870 /* Items.swift in Sources */,
 				AD5C0FAD21C17B190017A6CB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
