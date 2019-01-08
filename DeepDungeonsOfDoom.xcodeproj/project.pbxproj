@@ -16,6 +16,14 @@
 		AD5C0FB721C17B1A0017A6CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD5C0FB521C17B1A0017A6CB /* LaunchScreen.storyboard */; };
 		AD5C0FC221C17B1A0017A6CB /* DeepDungeonsOfDoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C0FC121C17B1A0017A6CB /* DeepDungeonsOfDoomTests.swift */; };
 		AD5C0FCD21C17B1B0017A6CB /* DeepDungeonsOfDoomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C0FCC21C17B1B0017A6CB /* DeepDungeonsOfDoomUITests.swift */; };
+		ADA0A9B021E22E3700B98935 /* menucontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA0A9AF21E22E3700B98935 /* menucontroller.swift */; };
+		ADA0A9B421E2562800B98935 /* inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA0A9B321E2562800B98935 /* inventory.swift */; };
+		ADD9D6FE21E4AEDE00209015 /* selectoponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD9D6FD21E4AEDE00209015 /* selectoponent.swift */; };
+		ADD9D70021E4AF5100209015 /* Monsters.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD9D6FF21E4AF5100209015 /* Monsters.swift */; };
+		ADD9D70221E4B36D00209015 /* modelMonster.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD9D70121E4B36D00209015 /* modelMonster.swift */; };
+		ADD9D70421E4B8AC00209015 /* batalla.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD9D70321E4B8AC00209015 /* batalla.swift */; };
+		ADEF84EA21E2603A00B6BC92 /* shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF84E921E2603A00B6BC92 /* shop.swift */; };
+		ADEF84EC21E2645900B6BC92 /* modelPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF84EB21E2645900B6BC92 /* modelPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,14 @@
 		AD5C0FC821C17B1B0017A6CB /* DeepDungeonsOfDoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepDungeonsOfDoomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5C0FCC21C17B1B0017A6CB /* DeepDungeonsOfDoomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepDungeonsOfDoomUITests.swift; sourceTree = "<group>"; };
 		AD5C0FCE21C17B1B0017A6CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA0A9AF21E22E3700B98935 /* menucontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menucontroller.swift; sourceTree = "<group>"; };
+		ADA0A9B321E2562800B98935 /* inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inventory.swift; sourceTree = "<group>"; };
+		ADD9D6FD21E4AEDE00209015 /* selectoponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectoponent.swift; sourceTree = "<group>"; };
+		ADD9D6FF21E4AF5100209015 /* Monsters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monsters.swift; sourceTree = "<group>"; };
+		ADD9D70121E4B36D00209015 /* modelMonster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelMonster.swift; sourceTree = "<group>"; };
+		ADD9D70321E4B8AC00209015 /* batalla.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = batalla.swift; sourceTree = "<group>"; };
+		ADEF84E921E2603A00B6BC92 /* shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shop.swift; sourceTree = "<group>"; };
+		ADEF84EB21E2645900B6BC92 /* modelPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +125,14 @@
 				AD5C0FB821C17B1A0017A6CB /* Info.plist */,
 				AD204FF821C1820000A0F870 /* Items.swift */,
 				AD204FFA21C1842D00A0F870 /* Heroes.swift */,
+				ADD9D6FF21E4AF5100209015 /* Monsters.swift */,
+				ADA0A9AF21E22E3700B98935 /* menucontroller.swift */,
+				ADA0A9B321E2562800B98935 /* inventory.swift */,
+				ADEF84E921E2603A00B6BC92 /* shop.swift */,
+				ADEF84EB21E2645900B6BC92 /* modelPicker.swift */,
+				ADD9D6FD21E4AEDE00209015 /* selectoponent.swift */,
+				ADD9D70121E4B36D00209015 /* modelMonster.swift */,
+				ADD9D70321E4B8AC00209015 /* batalla.swift */,
 			);
 			path = DeepDungeonsOfDoom;
 			sourceTree = "<group>";
@@ -262,8 +286,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADA0A9B421E2562800B98935 /* inventory.swift in Sources */,
 				AD5C0FAF21C17B190017A6CB /* ViewController.swift in Sources */,
+				ADEF84EA21E2603A00B6BC92 /* shop.swift in Sources */,
+				ADEF84EC21E2645900B6BC92 /* modelPicker.swift in Sources */,
+				ADD9D70021E4AF5100209015 /* Monsters.swift in Sources */,
+				ADD9D70421E4B8AC00209015 /* batalla.swift in Sources */,
+				ADD9D6FE21E4AEDE00209015 /* selectoponent.swift in Sources */,
+				ADD9D70221E4B36D00209015 /* modelMonster.swift in Sources */,
 				AD204FFB21C1842D00A0F870 /* Heroes.swift in Sources */,
+				ADA0A9B021E22E3700B98935 /* menucontroller.swift in Sources */,
 				AD204FF921C1820000A0F870 /* Items.swift in Sources */,
 				AD5C0FAD21C17B190017A6CB /* AppDelegate.swift in Sources */,
 			);

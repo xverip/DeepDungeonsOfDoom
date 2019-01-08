@@ -18,7 +18,7 @@ class Heroes {
     var DEF:Int = 0
     var LCK:Int = 0
     var exp:Int = 0
-    var coins:Int = 0
+    var coins:Int = 100
     
     init(name:String, vida:Int, stuff:[Items], asset:String) {
         self.name = name
@@ -26,15 +26,18 @@ class Heroes {
         self.vida = vida
         self.stuff = stuff
         self.asset = asset
-        for x in 0...stuff.count {
-            let stats:[Int] = stuff[x].getStats()
-            self.ATQ += stats[0]
-            self.MAG += stats[1]
-            self.DEF += stats[2]
-            self.LCK += stats[3]
+        for x in stuff {
+            let myStats:[Int] = x.getStats()
+            self.ATQ += myStats[0]
+            self.MAG += myStats[1]
+            self.DEF += myStats[2]
+            self.LCK += myStats[3]
         }
     }
     
+    func getAsset() -> String {
+        return asset
+    }
     func getName() -> String {
         return name
     }
@@ -76,7 +79,7 @@ class Heroes {
     }
     
     func coinsChanged(coins:Int) {
-        self.coins += coins
+        self.coins = coins
     }
     
     func setNewItem(position:Int, item:Items) {
@@ -85,8 +88,8 @@ class Heroes {
         self.MAG = 0
         self.DEF = 0
         self.LCK = 0
-        for x in 0...self.stuff.count {
-            let stats:[Int] = stuff[x].getStats()
+        for x in self.stuff {
+            let stats:[Int] = x.getStats()
             self.ATQ += stats[0]
             self.MAG += stats[1]
             self.DEF += stats[2]

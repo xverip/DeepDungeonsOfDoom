@@ -16,8 +16,9 @@ class Items {
     var DEF:Int
     var LCK:Int
     var price:Int
+    var type:String
     
-    init(name:String, asset:String, ATQ:Int, MAG:Int, DEF:Int, LCK:Int, price:Int) {
+    init(name:String, asset:String, ATQ:Int, MAG:Int, DEF:Int, LCK:Int, price:Int, type:String) {
         self.name = name
         self.asset = asset
         self.ATQ = ATQ
@@ -25,10 +26,15 @@ class Items {
         self.DEF = DEF
         self.LCK = LCK
         self.price = price
+        self.type = type
     }
     
     func getStats() -> [Int] {
         let aux:[Int] = [ATQ, MAG, DEF, LCK]
         return aux
+    }
+    
+    func getAsset() -> String {
+        return asset
     }
 }
